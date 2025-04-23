@@ -12,18 +12,23 @@ class Solution:
         for course in range(numCourses):
             if indegree[course] == 0:
                 queue.append(course)
-
+        
         while queue:
             leng = len(queue)
-            node = queue.popleft()
-            res.append(node)
 
-            for nebr in graph[node]:
-                indegree[nebr] -= 1
+            for _ in range(leng):
+                node = queue.pop()
+                res.append(node)
 
-                if indegree[nebr] == 0:
-                    queue.append(nebr)
+                for nebr in graph[node]:
+                    indegree[nebr] -= 1
 
+                    if indegree[nebr] == 0:
+                        queue.append(nebr)
+        
         if len(res) != numCourses:
             return []
         return res
+
+
+        
