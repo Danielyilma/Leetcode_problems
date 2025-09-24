@@ -7,7 +7,6 @@ class Solution:
                 return 0
 
             take = 0
-            not_take = 0
 
             if prev < nums[idx] and idx not in store:
                 take = rec(idx + 1, nums[idx]) + 1
@@ -17,7 +16,6 @@ class Solution:
                 store[idx] = take
     
             not_take = rec(idx + 1, prev)
-            
             return max(take, not_take)
         
         return rec(0, float("-inf"))
