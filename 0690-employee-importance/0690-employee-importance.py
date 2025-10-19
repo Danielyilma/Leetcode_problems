@@ -9,27 +9,20 @@ class Employee:
 
 class Solution:
     def getImportance(self, employees: List['Employee'], id: int) -> int:
-        graph = {}
-        weight = defaultdict(int)
-        visited = set()
+        graph = defaultdict(set)
 
         for emp in employees:
             graph[emp.id] = emp
-            weight[emp.id] = emp.importance
-        
-        # print(graph)
-        
 
-
-        def dfs(emp):
+        
+        def dfs(employee):
             sums = 0
-            for emp_id in emp.subordinates:
+
+            for emp_id in employee.subordinates:
                 sums += dfs(graph[emp_id])
-                
-            return emp.importance + sums
-
-        for emp in employees:
-            if emp.id == id:
-                return dfs(emp)
-
-
+            
+            return sums + employee.importance
+        
+        return dfs(graph[id])
+        
+         
