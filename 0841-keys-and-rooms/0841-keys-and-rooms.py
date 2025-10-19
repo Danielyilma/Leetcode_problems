@@ -2,19 +2,22 @@ class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         graph = defaultdict(list)
         visited = [0] * (len(rooms))
-        visited[0] = 1
 
-        for i, keys in enumerate(rooms):
-            graph[i].extend(keys)
+        for i, room in enumerate(rooms):
+            graph[i].extend(room)
 
-        def dfs(room):
+        queue = deque([0])
 
-            for room_key in graph[room]:
+        while queue:
+            leng = len(queue)
 
-                if not visited[room_key]:
-                    visited[room_key] = 1
-                    dfs(room_key)
+            for _ in range(leng):
+                room = queue.popleft()
+                visited[room] = 1
+            
+                for room_keys in graph[room]:
+                    if not visited[room_keys]:
+                        queue.append(room_keys)
         
-        dfs(0)
-        return sum(visited) == (len(rooms))
+        return sum(visited) == len(rooms)
                 
