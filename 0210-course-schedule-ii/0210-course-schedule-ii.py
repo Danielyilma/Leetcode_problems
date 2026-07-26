@@ -5,8 +5,8 @@ class Solution:
         res = []
 
         for course, preq in prerequisites:
-            graph[preq].append(course)
-            indegree[course] += 1
+            graph[course].append(preq)
+            indegree[preq] += 1
         
         queue = deque()
 
@@ -24,5 +24,5 @@ class Solution:
                 if indegree[nebr] == 0:
                     queue.append(nebr)
         
-        return res if sum(indegree) == 0 else []
+        return res[::-1] if sum(indegree) == 0 else []
         
