@@ -6,7 +6,7 @@ class Solution:
         for i in range(len(transactions)):
             name, time, amount, city = transactions[i].split(",")
             transaction_map.append([name, int(time), int(amount), city, i])
-        print(transaction_map)
+
         for i in range(len(transaction_map)):
             if transaction_map[i][2] > 1000:
                 res.append(transactions[transaction_map[i][4]])
