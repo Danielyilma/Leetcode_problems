@@ -7,6 +7,7 @@
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Danielyilma/Leetcode_problems/tree/main/0001-two-sum/) | Easy |
 | [0011-container-with-most-water](https://github.com/Danielyilma/Leetcode_problems/tree/main/0011-container-with-most-water/) | Medium |
+| [1169-invalid-transactions](https://github.com/Danielyilma/Leetcode_problems/tree/main/1169-invalid-transactions/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -39,4 +40,13 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Danielyilma/Leetcode_problems/tree/main/0001-two-sum/) | Easy |
+| [1169-invalid-transactions](https://github.com/Danielyilma/Leetcode_problems/tree/main/1169-invalid-transactions/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1169-invalid-transactions](https://github.com/Danielyilma/Leetcode_problems/tree/main/1169-invalid-transactions/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1169-invalid-transactions](https://github.com/Danielyilma/Leetcode_problems/tree/main/1169-invalid-transactions/) | Medium |
 <!---LeetCode Topics End-->
