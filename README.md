@@ -8,6 +8,7 @@
 | [0001-two-sum](https://github.com/Danielyilma/Leetcode_problems/tree/main/0001-two-sum/) | Easy |
 | [0011-container-with-most-water](https://github.com/Danielyilma/Leetcode_problems/tree/main/0011-container-with-most-water/) | Medium |
 | [0056-merge-intervals](https://github.com/Danielyilma/Leetcode_problems/tree/main/0056-merge-intervals/) | Medium |
+| [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
 | [1169-invalid-transactions](https://github.com/Danielyilma/Leetcode_problems/tree/main/1169-invalid-transactions/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -20,6 +21,7 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
 | [0207-course-schedule](https://github.com/Danielyilma/Leetcode_problems/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Danielyilma/Leetcode_problems/tree/main/0210-course-schedule-ii/) | Medium |
 ## Breadth-First Search
@@ -45,6 +47,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
 | [1169-invalid-transactions](https://github.com/Danielyilma/Leetcode_problems/tree/main/1169-invalid-transactions/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
@@ -55,4 +58,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0056-merge-intervals](https://github.com/Danielyilma/Leetcode_problems/tree/main/0056-merge-intervals/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
 <!---LeetCode Topics End-->
