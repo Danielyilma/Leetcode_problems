@@ -7,6 +7,7 @@
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Danielyilma/Leetcode_problems/tree/main/0001-two-sum/) | Easy |
 | [0011-container-with-most-water](https://github.com/Danielyilma/Leetcode_problems/tree/main/0011-container-with-most-water/) | Medium |
+| [0056-merge-intervals](https://github.com/Danielyilma/Leetcode_problems/tree/main/0056-merge-intervals/) | Medium |
 | [1169-invalid-transactions](https://github.com/Danielyilma/Leetcode_problems/tree/main/1169-invalid-transactions/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -48,5 +49,10 @@
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0056-merge-intervals](https://github.com/Danielyilma/Leetcode_problems/tree/main/0056-merge-intervals/) | Medium |
 | [1169-invalid-transactions](https://github.com/Danielyilma/Leetcode_problems/tree/main/1169-invalid-transactions/) | Medium |
+## Quicksort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0056-merge-intervals](https://github.com/Danielyilma/Leetcode_problems/tree/main/0056-merge-intervals/) | Medium |
 <!---LeetCode Topics End-->
