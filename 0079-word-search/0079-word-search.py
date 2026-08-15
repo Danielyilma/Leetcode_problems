@@ -1,36 +1,42 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
-        isbound = lambda row, col: 0 <= row < len(board) and 0 <= col < len(board[0])
-        res = False
         visited = set()
+        rows, cols = len(board), len(board[0])
+        directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
 
-        def dfs(idx, row, col):
-            if idx == len(word) - 1:
+        inbound = lambda row, col: 0 <= row < rows and 0 <= col < cols
+
+        def dfs(row, col, index):
+            if index >= len(word):
                 return True
 
-            for r, c in directions:
-                new_row, new_col = row + r, col + c
+            for dx, dy in directions:
+                new_row, new_col = row + dx, col + dy
 
-                if not isbound(new_row, new_col):
+                if not inbound(new_row, new_col) or (new_row, new_col) in visited:
                     continue
                 
-                if (new_row, new_col) not in visited and board[new_row][new_col] == word[idx + 1]:
-                    visited.add((new_row, new_col))
-                    if dfs(idx + 1, new_row, new_col):
-                        return True
-                    visited.remove((new_row, new_col))
-                    
+
+                if board[new_row][new_col] != word[index]:
+                    continue
+                
+                visited.add((new_row, new_col))
+                if dfs(new_row, new_col, index + 1):
+                    return True
+                visited.remove((new_row, new_col))
+            
             return False
         
-        for i in range(len(board)):
-            for j in range(len(board[0])):
-                if word[0] == board[i][j]:
-                    visited.add((i, j))
-                    if dfs(0, i, j):
-                        return True
-                    visited.remove((i, j))
+        for i in range(rows):
+            for j in range(cols):
+                if board[i][j] != word[0]:
+                    continue
+
+                visited.add((i, j))
+                if dfs(i, j, 1):
+                    return True
+                visited.remove((i, j))
+        
         return False
 
-
-
+            
