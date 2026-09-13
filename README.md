@@ -7,6 +7,7 @@
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Danielyilma/Leetcode_problems/tree/main/0001-two-sum/) | Easy |
 | [0011-container-with-most-water](https://github.com/Danielyilma/Leetcode_problems/tree/main/0011-container-with-most-water/) | Medium |
+| [0051-n-queens](https://github.com/Danielyilma/Leetcode_problems/tree/main/0051-n-queens/) | Hard |
 | [0056-merge-intervals](https://github.com/Danielyilma/Leetcode_problems/tree/main/0056-merge-intervals/) | Medium |
 | [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
 | [1169-invalid-transactions](https://github.com/Danielyilma/Leetcode_problems/tree/main/1169-invalid-transactions/) | Medium |
@@ -61,9 +62,14 @@
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0051-n-queens](https://github.com/Danielyilma/Leetcode_problems/tree/main/0051-n-queens/) | Hard |
 | [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
+## Algorithm X
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0051-n-queens](https://github.com/Danielyilma/Leetcode_problems/tree/main/0051-n-queens/) | Hard |
 <!---LeetCode Topics End-->
