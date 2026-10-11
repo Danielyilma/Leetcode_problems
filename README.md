@@ -23,6 +23,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Danielyilma/Leetcode_problems/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0207-course-schedule](https://github.com/Danielyilma/Leetcode_problems/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Danielyilma/Leetcode_problems/tree/main/0210-course-schedule-ii/) | Medium |
 ## Breadth-First Search
@@ -72,4 +73,20 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0051-n-queens](https://github.com/Danielyilma/Leetcode_problems/tree/main/0051-n-queens/) | Hard |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Danielyilma/Leetcode_problems/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Danielyilma/Leetcode_problems/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Danielyilma/Leetcode_problems/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+## DP on Trees
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Danielyilma/Leetcode_problems/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 <!---LeetCode Topics End-->
