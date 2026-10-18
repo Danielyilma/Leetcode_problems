@@ -50,6 +50,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
+| [0093-restore-ip-addresses](https://github.com/Danielyilma/Leetcode_problems/tree/main/0093-restore-ip-addresses/) | Medium |
 | [1169-invalid-transactions](https://github.com/Danielyilma/Leetcode_problems/tree/main/1169-invalid-transactions/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
@@ -65,6 +66,7 @@
 | ------- | ------- |
 | [0051-n-queens](https://github.com/Danielyilma/Leetcode_problems/tree/main/0051-n-queens/) | Hard |
 | [0079-word-search](https://github.com/Danielyilma/Leetcode_problems/tree/main/0079-word-search/) | Medium |
+| [0093-restore-ip-addresses](https://github.com/Danielyilma/Leetcode_problems/tree/main/0093-restore-ip-addresses/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
